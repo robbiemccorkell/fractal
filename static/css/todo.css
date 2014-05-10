@@ -1,0 +1,13 @@
+
+/* Todo styling */
+
+ul.todo-list {
+	margin: 20px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.done-true {
+	text-decoration: line-through;
+	color: grey;
+}
