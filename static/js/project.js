@@ -8,12 +8,12 @@ angular.module('todo', ['ngRoute', 'firebase'])
 
 .config(function($routeProvider) {
 	$routeProvider
-	.when('/', {
+	.when('/fractal', {
 		controller:'TodoCtrl',
 		templateUrl:'view/list.html'
 	})
 	.otherwise({
-		redirectTo:'/'
+		redirectTo:'/fractal'
 	});
 })
 
