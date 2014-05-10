@@ -10,7 +10,7 @@ angular.module('todo', ['ngRoute', 'firebase'])
 	$routeProvider
 	.when('/', {
 		controller:'TodoCtrl',
-		templateUrl:'/view/list.html'
+		templateUrl:'view/list.html'
 	})
 	.otherwise({
 		redirectTo:'/'
